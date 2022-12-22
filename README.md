@@ -8,27 +8,57 @@ The goal of this project is to find similarity within groups of people to build 
 <h2>Algorithm Used</h2>
 KMEANS-SILHOUTTE SCORE, ELBOW METHOD
 <h2>Dataset Features</h2>
-Show id: Unique ID for every Movie / TV Show
 
-type – Identifier - A Movie or TV Show
 
-title – Title of the Movie / TV Show
+* Show id: Unique ID for every Movie / TV Show
 
-director-director of the content
+* type – Identifier - A Movie or TV Show
 
-cast –Actors involved in the movie / show
+* title – Title of the Movie / TV Show
 
-country – Country where the movie / show was produced
+* director-director of the content
 
-date_added – Date it was added on Netflix
+* cast –Actors involved in the movie / show
 
-release_year – Actual Release year of the movie / show
+* country – Country where the movie / show was produced
 
-rating – TV Rating of the movie / show
+* date_added – Date it was added on Netflix
 
-duration – Total Duration - in minutes or number of seasons
+* release_year – Actual Release year of the movie / show
 
-listed_in – genre
+* rating – TV Rating of the movie / show
 
-description – The Summary description
+* duration – Total Duration - in minutes or number of seasons
+
+* listed_in – genre
+
+* description – The Summary description
+<br>
+<h2>Conclusion</h2>
+
+
+* Movies uploaded on Netflix are more than twice the TV Shows uploaded.<br>
+
+* TV shows and movies are increasing continuously but in 2020 there is drop in number of movies.<br>
+
+* From October to January, maximum number of movies and TV shows were added.<br>
+
+* Maximum number of movies and TV shows were either on start of the  month or mid of the month.<br>
+
+* United State tops in the list of maximum number of movies and TV shows followed by India, UK and Japan.<br>
+
+* Maximum of the movies as well as TV shows are for matures only.<br>
+
+* Almost 68% of TV shows consist of single season only.
+
+* Top 3 genres are exactly same for movies and TV shows.
+
+* Dramas genres hit all over the world.
+
+* 30% movies and 50% TV shows are Netflix Originals.
+
+* Clustering done by K-Means Clustering, found optimal number of clusters equal to 25 with highest Silhouette Score.
+
+* Recommender system using cosine similarity performs well on data.
+
 
